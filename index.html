@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+  </head>
+  
+  <body>
+    <br>
+    <h1 class="TITLE">Who Am I</h1>
+    <hr>
+    <p class="text">
+        Thank you for taking your time to look at my website, my name is <em><strong>Crishtion Reyna</strong></em>, and 
+        I've spent a lot of time thinking of ways to stand out from the tens of thousands
+        of other applicants you recieve. I am currently a senior at <i><b><a class="alert" href="https://hs.laferiaisd.org/" target="_blank">La Feria 
+        Early College High school</a></b></i>. I am interested in pursing an education in computer science
+        and possibly even cyber security, so I thought theres no better way to show my passion for
+        the amazing art of computer science than to make a website showcasing myself. 
+        <br>
+        <br>
+        <br>
+        <button id="bioButton"  class="float-left submit-button" >Learn more about me</button>
+        <br>
+        <br>
+        <button id="acaButton" class="float-left submit-button">Learn about my academics</button>
+        <br>
+        <br> 
+        <button id="xtraButton" class="float-left submit-button" >Learn about my extracurriculars and awards</button>
+        <br>
+        <br>
+        <button id="imgButton" class="float-left submit-button">See how I made this Website</button>
+    </p>
+
+<script type="text/javascript">
+     document.getElementById("xtraButton").onclick = function () {
+        location.href = "http://127.0.0.1:5500/xtra.html";
+    };
+     document.getElementById("bioButton").onclick = function () {
+        location.href = "http://127.0.0.1:5500/biography.html";
+    };
+    document.getElementById("imgButton").onclick = function () {
+        location.href = "http://127.0.0.1:5500/images.html";
+    };
+    document.getElementById("acaButton").onclick = function () {
+        location.href = "http://127.0.0.1:5500/academics.html";
+    };
+    let alertClick = document.querySelector('.alert');
+    alertClick.addEventListener('click', () => {
+    alert("This link will open a new page");
+})
+</script>
+  </body>
+</html>

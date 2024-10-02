@@ -1,0 +1,183 @@
+body{
+  background-color:#510400;
+}
+
+/*text styles*/
+.TITLE{
+color: #D4AF37;
+text-align: center;
+font-size: 48px;
+}
+
+
+.text{
+ color:white;
+ font-size:20px;
+ margin:12px;
+ padding:10px;
+ padding-bottom:10px;
+ background-color:#D4AF37;
+ text-shadow: 1px 1px 2px black;
+}
+
+.link{
+ font-weight:bold;
+ text-shadow: 2px 2px 4px black;
+}
+
+.list{
+ color:white;
+ font-size:20px;
+ margin:12px;
+ background-color:#D4AF37;
+ text-shadow: 2px 2px 4px black;
+}
+
+h2{
+  font-size: 36px;
+}
+ /* button styles*/
+#xtraButton{
+  border-radius: 2px;
+   border: medium solid #000000;
+   background-color:maroon;
+   font-family: "Arial", Impact, Charcoal, sans-serif;
+   font-weight: bold;
+   font-size:14px;
+   color: #ffffff;
+   text-shadow: 2px 2px 4px black;
+  }
+
+#homeButton{
+ position: absolute;
+ left: 10px;
+ top:5px;
+ border-radius: 2px;
+ border: medium solid #000000;
+ background-color:#D4AF37;
+ font-family: "Arial", Impact, Charcoal, sans-serif;
+ font-weight: bold;
+ font-size:14px;
+ color: #ffffff;
+ text-shadow: 1px 1px 2px black;
+
+}
+
+#bioButton{
+border-radius: 2px;
+ border: medium solid #000000;
+ background-color:maroon;
+ font-family: "Arial", Impact, Charcoal, sans-serif;
+ font-weight: bold;
+ font-size:14px;
+ color: #ffffff;
+ text-shadow: 2px 2px 4px black;
+}
+
+#imgButton{
+ border-radius: 2px;
+ border: medium solid #000000;
+ background-color: maroon;
+ font-family: "Arial", Impact, Charcoal, sans-serif;
+ font-weight: bold;
+ font-size:14px;
+ color: #ffffff;
+ text-shadow: 1px 1px 2px black;
+
+}
+
+#acaButton{
+ border-radius: 2px;
+ border: medium solid #000000;
+ background-color: maroon;
+ font-family: "Arial", Impact, Charcoal, sans-serif;
+ font-weight: bold;
+ font-size:14px;
+ color: #ffffff;
+ text-shadow: 1px 1px 2px black;
+
+}
+
+#acaButton2{
+ position: absolute;
+ right: 10px;
+ top:5px;
+ border-radius: 2px;
+ border: medium solid #000000;
+ background-color:#D4AF37;
+ font-family: "Arial", Impact, Charcoal, sans-serif;
+ font-weight: bold;
+ font-size:14px;
+ color: #ffffff;
+ text-shadow: 1px 1px 2px black;
+
+}
+
+#backButton{
+ position: absolute;
+ left: 10px;
+ top:40px;
+ border-radius: 2px;
+ border: medium solid #000000;
+ background-color:#D4AF37;
+ font-family: "Arial", Impact, Charcoal, sans-serif;
+ font-weight: bold;
+ font-size:14px;
+ color: #ffffff;
+ text-shadow: 1px 1px 2px black;
+
+}
+
+
+/* Drop Menu Style*/
+.navbar {
+  background-color: #420303;
+  top:0px;
+  width: 100%;
+  left:0px;
+  position: absolute;
+  z-index: 999;
+  border: #000000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #420303;
+  border: #000000;
+  border-width: 5px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+  border:#000000;
+  border-width: 5px;
+}
+
+.navbar ul ul li {
+  display: block;
+}
+
+.navbar li:hover ul {
+  display: block;
+}
+
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a:hover {
+  background-color: #555;
+}
