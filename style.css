@@ -50,6 +50,7 @@ h2{
 
 #xtraBUtton:hover{
   shadow: 4px 4px 8px black;
+  background-color:white;
 }
 
 #homeButton{
