@@ -48,6 +48,10 @@ h2{
    text-shadow: 2px 2px 4px black;
   }
 
+#xtraBUtton:hover{
+  shadow: 4px 4px 8px black;
+}
+
 #homeButton{
  position: absolute;
  left: 10px;
