@@ -180,6 +180,7 @@ border-radius: 2px;
 
 .navbar li:hover ul {
   display: block;
+  border-bottom: 4px solid white;
 }
 
 /* Change the background color of dropdown links on hover */
