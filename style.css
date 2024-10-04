@@ -48,7 +48,7 @@ h2{
    text-shadow: 2px 2px 4px black;
   }
 
-#xtraBUtton:hover{
+#xtraButton:hover #xtraButton{
   shadow: 4px 4px 8px black;
   background-color:white;
 }
