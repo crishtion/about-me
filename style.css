@@ -48,6 +48,11 @@ h2{
    text-shadow: 2px 2px 4px black;
   }
 
+  .xtraButton:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 6px #000000;
+  }
+
 .homeButton{
  position: absolute;
  left: 10px;
@@ -73,6 +78,11 @@ h2{
  text-shadow: 2px 2px 4px black;
 }
 
+.bioButton:hover{
+  transform: scale(1.1);
+  box-shadow: 4px 4px 6px #000000;
+}
+
 .imgButton{
  border-radius: 2px;
  border: medium solid #000000;
@@ -82,7 +92,11 @@ h2{
  font-size:14px;
  color: #ffffff;
  text-shadow: 1px 1px 2px black;
+}
 
+.imgButton:hover{
+  transform: scale(1.1);
+  box-shadow: 4px 4px 6px #000000;
 }
 
 .acaButton{
@@ -94,7 +108,11 @@ h2{
  font-size:14px;
  color: #ffffff;
  text-shadow: 1px 1px 2px black;
+}
 
+.acaButton:hover{
+  transform: scale(1.1);
+  box-shadow: 4px 4px 6px #000000;
 }
 
 
