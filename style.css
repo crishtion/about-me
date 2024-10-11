@@ -15,7 +15,7 @@ font-size: 48px;
   margin-top: 0px;
  margin-left: 12px;
  margin-right: 12px;
- margin-bottom: 18px;
+ margin-bottom: 12px;
 }
 
 .text{
@@ -65,20 +65,6 @@ h2{
     box-shadow: 4px 4px 6px #000000;
   }
 
-.homeButton{
- position: absolute;
- left: 10px;
- top:5px;
- border-radius: 2px;
- border: medium solid #000000;
- background-color: #D4AF37;
- font-family: "Arial", Impact, Charcoal, sans-serif;
- font-weight: bold;
- font-size:14px;
- color: #ffffff;
- text-shadow: 1px 1px 2px black;
-}
-
 .bioButton{
  margin-left: 12px;
  border-radius: 2px;
@@ -98,7 +84,7 @@ h2{
 
 .imgButton{
  margin-left: 12px;
- margin-left: 12px;
+ margin-bottom: 12px;
  border-radius: 2px;
  border: medium solid #000000;
  background-color: maroon;
@@ -133,7 +119,7 @@ h2{
 
 
 .backButton{
-margin-left: 12px;
+ margin-left: 12px;
  position: absolute;
  left: 10px;
  top:40px;
@@ -145,7 +131,6 @@ margin-left: 12px;
  font-size:14px;
  color: #ffffff;
  text-shadow: 1px 1px 2px black;
-
 }
 
 
