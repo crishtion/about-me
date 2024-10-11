@@ -1,5 +1,7 @@
 body{
   background-color:#510400;
+  display: flex;
+  margin: 0
 }
 
 /*text styles*/
@@ -37,7 +39,7 @@ h2{
   font-size: 36px;
 }
  /* button styles*/
-#xtraButton{
+.xtraButton{
    border-radius: 2px;
    border: medium solid #000000;
    background-color: maroon;
@@ -48,7 +50,7 @@ h2{
    text-shadow: 2px 2px 4px black;
   }
 
-#homeButton{
+.homeButton{
  position: absolute;
  left: 10px;
  top:5px;
@@ -62,8 +64,8 @@ h2{
  text-shadow: 1px 1px 2px black;
 }
 
-#bioButton{
-border-radius: 2px;
+.bioButton{
+ border-radius: 2px;
  border: medium solid #000000;
  background-color:maroon;
  font-family: "Arial", Impact, Charcoal, sans-serif;
@@ -73,7 +75,7 @@ border-radius: 2px;
  text-shadow: 2px 2px 4px black;
 }
 
-#imgButton{
+.imgButton{
  border-radius: 2px;
  border: medium solid #000000;
  background-color: maroon;
@@ -85,7 +87,7 @@ border-radius: 2px;
 
 }
 
-#acaButton{
+.acaButton{
  border-radius: 2px;
  border: medium solid #000000;
  background-color: maroon;
@@ -97,22 +99,8 @@ border-radius: 2px;
 
 }
 
-#acaButton2{
- position: absolute;
- right: 10px;
- top:5px;
- border-radius: 2px;
- border: medium solid #000000;
- background-color:#D4AF37;
- font-family: "Arial", Impact, Charcoal, sans-serif;
- font-weight: bold;
- font-size:14px;
- color: #ffffff;
- text-shadow: 1px 1px 2px black;
 
-}
-
-#backButton{
+.backButton{
  position: absolute;
  left: 10px;
  top:40px;
