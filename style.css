@@ -10,10 +10,21 @@ font-size: 48px;
 }
 
 
+.container{
+  background-color: #D4AF37;
+  margin-top: 0px;
+ margin-left: 12px;
+ margin-right: 12px;
+ margin-bottom: 12px;
+}
+
 .text{
  color:white;
  font-size:20px;
- margin:12px;
+ margin-top: 12px;
+ margin-left: 12px;
+ margin-right: 12px;
+ margin-bottom: 0px;
  padding:10px;
  padding-bottom:10px;
  background-color:#D4AF37;
