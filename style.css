@@ -15,7 +15,7 @@ font-size: 48px;
   margin-top: 0px;
  margin-left: 12px;
  margin-right: 12px;
- margin-bottom: 12px;
+ margin-bottom: 18px;
 }
 
 .text{
@@ -24,7 +24,7 @@ font-size: 48px;
  margin-top: 12px;
  margin-left: 12px;
  margin-right: 12px;
- margin-bottom: 12px;
+ margin-bottom: 0px;
  padding:10px;
  padding-bottom:10px;
  background-color:#D4AF37;
@@ -97,6 +97,7 @@ h2{
 }
 
 .imgButton{
+ margin-left: 12px;
  margin-left: 12px;
  border-radius: 2px;
  border: medium solid #000000;
