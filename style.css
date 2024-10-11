@@ -49,6 +49,7 @@ h2{
 }
  /* button styles*/
 .xtraButton{
+   margin-left: 12px;
    border-radius: 2px;
    border: medium solid #000000;
    background-color: maroon;
@@ -79,6 +80,7 @@ h2{
 }
 
 .bioButton{
+ margin-left: 12px;
  border-radius: 2px;
  border: medium solid #000000;
  background-color:maroon;
@@ -95,6 +97,7 @@ h2{
 }
 
 .imgButton{
+ margin-left: 12px;
  border-radius: 2px;
  border: medium solid #000000;
  background-color: maroon;
@@ -111,6 +114,7 @@ h2{
 }
 
 .acaButton{
+ margin-left: 12px;
  border-radius: 2px;
  border: medium solid #000000;
  background-color: maroon;
@@ -128,6 +132,7 @@ h2{
 
 
 .backButton{
+margin-left: 12px;
  position: absolute;
  left: 10px;
  top:40px;
