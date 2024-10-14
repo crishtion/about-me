@@ -51,6 +51,7 @@ h2{
 
 .Button{
  margin-left: 12px;
+ margin-bottom: 12px;
  border-radius: 2px;
  border: medium solid #000000;
  background-color: maroon;
