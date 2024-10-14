@@ -187,3 +187,7 @@ h2{
   background-color: #555;
   border-bottom: 4px solid white;
 }
+
+.navbar ul li a:hover {
+  border-bottom: 4px solid white;
+}
