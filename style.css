@@ -62,8 +62,17 @@ h2{
  text-shadow: 1px 1px 2px black;
 }
 
-.bottom{
+.bottomButton{
+  margin-left: 12px;
   margin-bottom: 12px;
+  border-radius: 2px;
+  border: medium solid #000000;
+  background-color: maroon;
+  font-family: "Arial", Impact, Charcoal, sans-serif;
+  font-weight: bold;
+  font-size:14px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black;
 }
 
 .Button:hover{
