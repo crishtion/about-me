@@ -62,27 +62,14 @@ h2{
  text-shadow: 1px 1px 2px black;
 }
 
+.bottom{
+  margin-bottom: 12px;
+}
+
 .Button:hover{
   transform: scale(1.1);
   box-shadow: 4px 4px 6px #000000;
 }
-
-
-.backButton{
- margin-left: 12px;
- position: absolute;
- left: 10px;
- top:40px;
- border-radius: 2px;
- border: medium solid #000000;
- background-color:#D4AF37;
- font-family: "Arial", Impact, Charcoal, sans-serif;
- font-weight: bold;
- font-size:14px;
- color: #ffffff;
- text-shadow: 1px 1px 2px black;
-}
-
 
 /* Drop Menu Style*/
 .navbar {
