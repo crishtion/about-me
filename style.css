@@ -48,57 +48,6 @@ h2{
   font-size: 36px;
 }
  /* button styles*/
-.xtraButton{
-   margin-left: 12px;
-   border-radius: 2px;
-   border: medium solid #000000;
-   background-color: maroon;
-   font-family: "Arial", Impact, Charcoal, sans-serif;
-   font-weight: bold;
-   font-size:14px;
-   color: #ffffff;
-   text-shadow: 2px 2px 4px black;
-  }
-
-  .xtraButton:hover{
-    transform: scale(1.1);
-    box-shadow: 4px 4px 6px #000000;
-  }
-
-.bioButton{
- margin-left: 12px;
- border-radius: 2px;
- border: medium solid #000000;
- background-color:maroon;
- font-family: "Arial", Impact, Charcoal, sans-serif;
- font-weight: bold;
- font-size:14px;
- color: #ffffff;
- text-shadow: 2px 2px 4px black;
-}
-
-.bioButton:hover{
-  transform: scale(1.1);
-  box-shadow: 4px 4px 6px #000000;
-}
-
-.imgButton{
- margin-left: 12px;
- margin-bottom: 12px;
- border-radius: 2px;
- border: medium solid #000000;
- background-color: maroon;
- font-family: "Arial", Impact, Charcoal, sans-serif;
- font-weight: bold;
- font-size:14px;
- color: #ffffff;
- text-shadow: 1px 1px 2px black;
-}
-
-.imgButton:hover{
-  transform: scale(1.1);
-  box-shadow: 4px 4px 6px #000000;
-}
 
 .Button{
  margin-left: 12px;
