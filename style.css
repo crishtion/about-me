@@ -125,3 +125,11 @@ h2{
 .navbar ul li:hover {
   border-bottom: 4px solid white;
 }
+
+/* Image Styles */
+.indeximg{
+  height:500px;
+  width:500px;
+  padding-left: 12px;
+  float:right;
+}
