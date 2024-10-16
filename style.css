@@ -13,9 +13,9 @@ font-size: 48px;
 .container{
   background-color: #D4AF37;
   margin-top: 0px;
- margin-left: 12px;
- margin-right: 12px;
- margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
 }
 
 .text{
@@ -131,4 +131,5 @@ h2{
   height:300px;
   width:300px;
   float:right;
+  object-fit: contain;
 }
