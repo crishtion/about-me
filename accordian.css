@@ -1,6 +1,6 @@
 #accordian{
     margin: 100px auto;
-    width: 80%;
+    width: 80vw;
     float: left;
 }
 
@@ -41,8 +41,10 @@
     overflow: hidden;
     transition: max-height 0.5s;
     color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
 }
 
 #accordian label + input[type="radio"]:checked + .content{
-    max-height: 400px;
+    max-height: 600px;
 }
