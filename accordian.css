@@ -1,6 +1,7 @@
 #accordian{
     margin: 100px auto;
     width: 600px;
+    float: left;
 }
 
 #accordian li{
