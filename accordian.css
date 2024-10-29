@@ -7,7 +7,7 @@
     list-style: none;
     width: 100%;
     margin-bottom: 10px;
-    background: #fff;
+    background: #D4AF37;
     padding: 10px;
     border-radius: 4px;
 }
@@ -17,16 +17,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-    color: goldenrod
+    color: white;
 }
 
 #accordian li label span{
     transform: rotate(90deg);
     font-size: 32px;
-    color:black;
+    color:maroon;
 }
 
 #accordian label + input[type="radio"]{
@@ -39,6 +39,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s;
+    color: white;
 }
 
 #accordian label + input[type="radio"]:checked + .content{
