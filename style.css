@@ -131,8 +131,14 @@ h2{
 
 /* Image Styles */
 .indeximg{
-  height:400px;
-  width:400px;
+  height:30vh;
+  width:30vw;
   float:right;
   object-fit: contain;
+}
+
+.imgContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
