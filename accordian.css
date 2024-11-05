@@ -26,9 +26,9 @@
 }
 
 #accordian li label span{
-    transform: rotate(90deg);
     font-size: 32px;
     color:maroon;
+    transition: rotate 0.5s;
 }
 
 #accordian label + input[type="radio"]{
@@ -48,4 +48,10 @@
 
 #accordian label + input[type="radio"]:checked + .content{
     max-height: 600px;
+}
+
+#accordian li label span+ input[type="radio"]:checked + .content{
+    transform: rotate(90);
+    font-size: 32px;
+    color:maroon;
 }
