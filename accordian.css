@@ -47,10 +47,12 @@
 }
 
 #accordian label + input[type="radio"]:checked + .content{
-    max-height: 600px;
+    max-height: 300%;
 }
 
-#accordian li label span+ input[type="radio"]:checked + .content{
+/*Try to get this working*/
+
+#accordian li label span + input[type="radio"]:checked + .content{
     transform: rotate(90);
     font-size: 32px;
     color:maroon;
