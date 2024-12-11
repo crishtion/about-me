@@ -25,7 +25,7 @@ const checkInputs2  = () =>{
     count2 += 1
     console.log(count2)
     if(count2 >= 2){
-        element1.checked = false;
+        element2.checked = false;
         count2 = 0
         console.log('this button should close');
     } else if(element1.checked || element3.checked){
@@ -37,7 +37,7 @@ const checkInputs3  = () =>{
     count3 += 1
     console.log(count3)
     if(count3 >= 2){
-        element1.checked = false;
+        element3.checked = false;
         count3 = 0
         console.log('this button should close');
     } else if(element1.checked  || element2.checked){
