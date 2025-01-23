@@ -35,6 +35,7 @@
         <button id="xtraButtonClick" class="Button">Learn about my extracurriculars and awards</button>
         <br>
         <br>
+        <button id="showButton" class = "Button">View projects that I've started working on</button>
      </div>
     <!--Makes buttons work-->
 <script type="text/javascript">
@@ -46,6 +47,9 @@
     };
     document.getElementById("acaButtonClick").onclick = function () {
         location.href = "academics.html";
+    };
+    document.getElementById("showButton").onclick = function () {
+        location.href = "projects.html";
     };
     let alertClick = document.querySelector('.alert');
     alertClick.addEventListener('click', () => {
