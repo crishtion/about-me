@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+#canvas-home {
+    background-color: #5FA052;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: none;
+}
+
+#form-home{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 160px); /* Adjust this value based on the canvas width and desired spacing */
+    transform: translateY(-50%);
+    background-color: grey;
+    width: 300px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*
+#form-home > button{
+    background-color: red;
+}
+*/
+#keyInput{
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  width: 15em;
+  height: 20em;
+  display: grid;
+  
+}
+
+#form-home .display{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    padding: 10px;
+    outline: none;
+}
+
+#form-home .display:hover{
+    cursor: default;
+}
+
+.r1, .r2, .r3, .r4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 3em;
+}
+
+
+
+#num1, #num2, #num3, #num4, #num5, #num6, #num7, #num8, #num9, #num0 {
+    width: 3em;
+    height: 2em;
+    background-color:bisque;
+}
+
+#num1:hover, #num2:hover, #num3:hover, #num4:hover, #num5:hover, #num6:hover, #num7:hover, #num8:hover, #num9:hover, #num0:hover{
+    cursor: pointer;
+}
+
+#submit{
+    position: relative;
+    left: 25%;
+    width: 2em;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+}
